@@ -1,0 +1,14 @@
+Gantt Chart
+0 P0 5 P1 10 P1 I/O 12 P2 17 P2 I/O 18 P3 24 P0 29 P1 34 P2 39 P2 I/O 40 P3 45 46 P0 51 P1 56 P2 61 P2 I/O 63 P0 68 P1 70 70 P2 75 P2 I/O 77 P0 81 81 P2 86 P2 I/O 88 P2 93 P2 I/O 95 P2 100 P2 I/O 102 P2 107 P2 I/O 109 P2 114 P2 I/O 116 P2 121 
+
+Performance Metrics
+PID	Arrival Time	CPU Burst Time	Turnaround Time	Waiting Time	Response Time	Throughput
+P0	0		24		81		57		0		0.012346
+P1	3		17		67		50		2		0.014925
+P2	8		50		113		63		4		0.008850
+P3	15		10		30		20		3		0.033333
+
+Average Turnaround Time: 72.75
+Average Waiting Time: 47.50
+Average Response Time: 2.25
+System Throughput: 0.03 processes per unit time
